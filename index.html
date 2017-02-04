@@ -38,7 +38,6 @@
 	display:none!important;
 }
 .content {
-	height:calc(100% - 110px);
 	color: black;
 }
 .search-bar {
@@ -384,10 +383,9 @@ function listContainsStr(list, str) {
 		目前的使用建议是别光输入妖怪名称顺便随便在后面输个x3 x4 *3 *4 ×3 ×4什么的
 	</p>
 	<hr>
-	<div style="width:650px;margin:0 auto;">
-	<div class="search-bar">
+	<div>
+	<div>
 		<input class="search-control" placeholder="输入线索或者妖怪名字" id="searchItem" oninput="search(this.value)">
-		<span class="icon search"></span>
 	</div>
 	<div class="content" style="overflow-y:auto;">
 		<div class="table explore">
@@ -1185,6 +1183,57 @@ function listContainsStr(list, str) {
 					<div class="table-cell">镰鼬×14</div>
 				</div>
 			</div>
+			
+			<div class="table-row-group chapter">
+				<div class="table-row chapter-header">
+					<div class="table-cell">番外见习鬼使</div>
+					<div class="table-cell"></div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">鬼女红叶1</div>
+					<div class="table-cell">觉×3 鬼女红叶×1 天邪鬼青×2</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">山童1</div>
+					<div class="table-cell">河童×3 首无×2 山童×1</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">古笼火1</div>
+					<div class="table-cell">犬神×3 管狐×2 古笼火×1</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">古笼火2</div>
+					<div class="table-cell">犬神×3 管狐×2 古笼火×1</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">鬼女红叶2</div>
+					<div class="table-cell">觉×3 鬼女红叶×1 天邪鬼青×2</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">古笼火3</div>
+					<div class="table-cell">犬神×3 管狐×2 古笼火×1</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">山童2</div>
+					<div class="table-cell">河童×3 首无×2 山童×1</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">酒吞童子1（困难模式）</div>
+					<div class="table-cell">狸猫×3 首无×2 酒吞童子×1</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">首领：见习鬼使</div>
+					<div class="table-cell">黑童子×1 天邪鬼绿×3 鬼使白×1 鬼使黑×1</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">挑战：古笼火</div>
+					<div class="table-cell">古笼火×14</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">挑战：首无</div>
+					<div class="table-cell">首无×14</div>
+				</div>
+			</div>
 		</div>
 		
 		<div class="table equipment">
@@ -1769,8 +1818,5 @@ function listContainsStr(list, str) {
 		</div>
 	</div>
 </div>
-	<div style="text-align:center;">
-	<p>津ICP备16000999号</p>
-	</div>
 </body>
 </html>
