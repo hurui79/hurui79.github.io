@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div style="height: 300px">
+        <textarea id="txt5" runat="server" style="width: 400px; height: 300px"></textarea>
+        <input type="button" value="转换" onclick="ZH()" style="margin-bottom: 150px" />
+        <textarea id="txt7" runat="server" style="width: 400px; height: 300px"></textarea>
+    </div>
+    <script type="text/javascript">
+        function ZH() {
+            var doc5 = document.getElementById("txt5");
+            var doc7 = document.getElementById("txt7");
+            if (doc5.value != "") {
+                var s5 = doc5.value.ReplaceAll("，", ",").split(",");
+                var n = "";
+                for (var i = 0; i < s5.length; i++) {
+                    if (i != s5.length - 1) {
+                        var be = s5[i];
+                        var en = s5[i + 1];
+                        var res = Math.abs(Math.round((en - be) * 7 / 5));
+                        n += res + ",";
+
+                    }
+                }
+                doc7.value = n.trimEnd(',');
+            }
+        }
+        String.prototype.trimEnd = function (c) {
+            var str = this;
+            var rg = new RegExp(c);
+            var i = str.length;
+            while (rg.test(str.charAt(--i)));
+            return str.slice(0, i + 1);
+        }
+		String.prototype.ReplaceAll = function (sptr, sptr1){
+			var str = this;
+            while (str.indexOf(sptr) >= 0){
+                str = str.replace(sptr, sptr1);
+            }
+            return str;
+        }
+    </script>
+</body>
+</html>
