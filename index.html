@@ -141,6 +141,32 @@ function hl(text,kw){
     return text.substring(0,idx)+'<mark>'+text.substring(idx,idx+kw.length)+'</mark>'+text.substring(idx+kw.length);
 }
 
+// ===== 搜索优先级评分 =====
+// 优先级: 严格匹配代码 > 名称开头匹配 > 名称包含匹配 > 其他字段匹配
+function scoreAirport(item,kwUp,kwLow){
+    if(!kwLow) return 0;
+    if(item.Threecode&&item.Threecode.toUpperCase()===kwUp) return 100;
+    if(item.City&&item.City.toUpperCase()===kwUp) return 90;
+    const name=(item.ThreecodeName||'').toLowerCase();
+    const ename=(item.EnglishNameOfThreecodeName||'').toLowerCase();
+    const city=(item.ChineseNameOfCity||'').toLowerCase();
+    const ecity=(item.EnglishNameOfCity||'').toLowerCase();
+    if(city===kwLow||ecity===kwLow) return 80;
+    if(name.startsWith(kwLow)||ename.startsWith(kwLow)||city.startsWith(kwLow)||ecity.startsWith(kwLow)) return 60;
+    if(name.includes(kwLow)||ename.includes(kwLow)||city.includes(kwLow)||ecity.includes(kwLow)) return 40;
+    return 10;
+}
+function scoreAirline(item,kwUp,kwLow){
+    if(!kwLow) return 0;
+    if(item.AirlineCode&&item.AirlineCode.toUpperCase()===kwUp) return 100;
+    const name=(item.AirlineName||'').toLowerCase();
+    const ename=(item.AirlineEnglishName||'').toLowerCase();
+    if(name===kwLow||ename===kwLow) return 80;
+    if(name.startsWith(kwLow)||ename.startsWith(kwLow)) return 60;
+    if(name.includes(kwLow)||ename.includes(kwLow)) return 40;
+    return 10;
+}
+
 // ===== 搜索逻辑 =====
 function doSearch(){
     const kw=document.getElementById('searchInput').value.trim();
@@ -151,23 +177,21 @@ function doSearch(){
     if(currentTab==='airport'){
         results=airportData.filter(item=>{
             if(!kw) return true;
-            // Threecode、City 严格匹配
             if(item.Threecode && item.Threecode.toUpperCase()===kwUp) return true;
             if(item.City && item.City.toUpperCase()===kwUp) return true;
-            // 其他字段模糊
             const fields=[item.ChineseNameOfCity,item.EnglishNameOfCity,item.Country,item.CountryCode,item.Province,item.Position,item.ThreecodeName,item.EnglishNameOfThreecodeName];
             return fields.some(f=>f&&String(f).toLowerCase().includes(kwLow));
         });
+        if(kw) results.sort((a,b)=>scoreAirport(b,kwUp,kwLow)-scoreAirport(a,kwUp,kwLow));
         renderAirport(results,kw);
     }else{
         results=airlineData.filter(item=>{
             if(!kw) return true;
-            // AirlineCode 严格匹配
             if(item.AirlineCode && item.AirlineCode.toUpperCase()===kwUp) return true;
-            // 其他字段模糊
             const fields=[item.AirlineName,item.AirlineEnglishName,item.AirlineCountry,item.WaybillCode];
             return fields.some(f=>f&&String(f).toLowerCase().includes(kwLow));
         });
+        if(kw) results.sort((a,b)=>scoreAirline(b,kwUp,kwLow)-scoreAirline(a,kwUp,kwLow));
         renderAirline(results,kw);
     }
     document.getElementById('stats').innerHTML='找到 <em>'+results.length+'</em> 条结果';
