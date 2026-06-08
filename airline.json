@@ -1023,10 +1023,10 @@
   },
   {
     "AirlineCode": "7C",
-    "AirlineName": "科尼航空",
+    "AirlineName": "济州航空",
     "AirlineEnglishName": "Coyne Airways",
     "AirlineCountry": "英国",
-    "WaybillCode": null
+    "WaybillCode": "806"
   },
   {
     "AirlineCode": "7E",
@@ -1271,7 +1271,7 @@
     "AirlineName": "缅甸国际航空",
     "AirlineEnglishName": "Myanmar Airways International",
     "AirlineCountry": "缅甸",
-    "WaybillCode": null
+    "WaybillCode": "599"
   },
   {
     "AirlineCode": "8N",
@@ -1381,9 +1381,9 @@
   {
     "AirlineCode": "9D",
     "AirlineName": "天骄航空",
-    "AirlineEnglishName": "Genghis Khan Airlines",
+    "AirlineEnglishName": "Tianjiao Airlines Co., Ltd.",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "568"
   },
   {
     "AirlineCode": "9E",
@@ -1482,6 +1482,13 @@
     "AirlineEnglishName": "Avior Airlines, C.A. dba Avior Airlines",
     "AirlineCountry": "委内瑞拉",
     "WaybillCode": null
+  },
+  {
+    "AirlineCode": "9W",
+    "AirlineName": "捷特航空印度有限公司",
+    "AirlineEnglishName": "Indian Jet Airways Co Ltd.",
+    "AirlineCountry": "印度",
+    "WaybillCode": "589"
   },
   {
     "AirlineCode": "9X",
@@ -1796,7 +1803,7 @@
     "AirlineName": "立荣航空",
     "AirlineEnglishName": "UNI Airways Corporation",
     "AirlineCountry": "Chinese Taipei",
-    "WaybillCode": null
+    "WaybillCode": "525"
   },
   {
     "AirlineCode": "B9",
@@ -1873,7 +1880,7 @@
     "AirlineName": "奥凯航空",
     "AirlineEnglishName": "Okay Airways",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "866"
   },
   {
     "AirlineCode": "BL",
@@ -1957,7 +1964,7 @@
     "AirlineName": "釜山航空",
     "AirlineEnglishName": "Air Busan",
     "AirlineCountry": "韩国",
-    "WaybillCode": null
+    "WaybillCode": "982"
   },
   {
     "AirlineCode": "BY",
@@ -2181,7 +2188,7 @@
     "AirlineName": "大新华航空",
     "AirlineEnglishName": "Grand China Air",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": "880"
+    "WaybillCode": "895"
   },
   {
     "AirlineCode": "CO",
@@ -2468,7 +2475,7 @@
     "AirlineName": "瑞丽航空",
     "AirlineEnglishName": "Ruili Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "299"
   },
   {
     "AirlineCode": "DS",
@@ -2531,7 +2538,7 @@
     "AirlineName": "东海航空",
     "AirlineEnglishName": "Donghai Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "893"
   },
   {
     "AirlineCode": "E1",
@@ -2748,7 +2755,7 @@
     "AirlineName": "成都航空",
     "AirlineEnglishName": "Chengdu Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "811"
   },
   {
     "AirlineCode": "EW",
@@ -2892,10 +2899,10 @@
   },
   {
     "AirlineCode": "FE",
-    "AirlineName": "Arrendamientos Aereos SA",
+    "AirlineName": "远东航空公司",
     "AirlineEnglishName": "Arrendamientos Aereos SA dba FLYTRIP",
     "AirlineCountry": "巴拿马",
-    "WaybillCode": null
+    "WaybillCode": "436"
   },
   {
     "AirlineCode": "FF*",
@@ -2951,7 +2958,7 @@
     "AirlineName": "上海航空",
     "AirlineEnglishName": "Shanghai Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": "112"
+    "WaybillCode": "774"
   },
   {
     "AirlineCode": "FN",
@@ -3091,7 +3098,7 @@
     "AirlineName": "华夏航空",
     "AirlineEnglishName": "China Express Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "987"
   },
   {
     "AirlineCode": "G6*",
@@ -3203,7 +3210,7 @@
     "AirlineName": "长龙航空",
     "AirlineEnglishName": "Zhejiang Loong Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "891"
   },
   {
     "AirlineCode": "GK",
@@ -3308,7 +3315,7 @@
     "AirlineName": "北部湾航空",
     "AirlineEnglishName": "Guangxi Beibu Gulf Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "872"
   },
   {
     "AirlineCode": "GY",
@@ -3707,7 +3714,7 @@
     "AirlineName": "伊尔航空",
     "AirlineEnglishName": "IrAero",
     "AirlineCountry": "俄罗斯",
-    "WaybillCode": null
+    "WaybillCode": "157"
   },
   {
     "AirlineCode": "IP",
@@ -3798,7 +3805,7 @@
     "AirlineName": "阿塞拜疆航空",
     "AirlineEnglishName": "Azerbaijan Airlines",
     "AirlineCountry": "阿塞拜疆",
-    "WaybillCode": "501"
+    "WaybillCode": "771"
   },
   {
     "AirlineCode": "J4",
@@ -3941,6 +3948,13 @@
     "WaybillCode": null
   },
   {
+    "AirlineCode": "JR",
+    "AirlineName": "幸福航空有限责任公司",
+    "AirlineEnglishName": "Joyair",
+    "AirlineCountry": "中国",
+    "WaybillCode": "929"
+  },
+  {
     "AirlineCode": "JS",
     "AirlineName": "高丽航空",
     "AirlineEnglishName": "Air Koryo",
@@ -4043,7 +4057,7 @@
     "AirlineName": "柬埔寨吴哥航空",
     "AirlineEnglishName": "Cambodia Angkor Air",
     "AirlineCountry": "柬埔寨",
-    "WaybillCode": null
+    "WaybillCode": "188"
   },
   {
     "AirlineCode": "K7",
@@ -4176,7 +4190,7 @@
     "AirlineName": "中国联合航空",
     "AirlineEnglishName": "China United Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "822"
   },
   {
     "AirlineCode": "KO",
@@ -4246,7 +4260,7 @@
     "AirlineName": "昆明航空",
     "AirlineEnglishName": "Kunming Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "833"
   },
   {
     "AirlineCode": "KZ",
@@ -4309,7 +4323,7 @@
     "AirlineName": "智利南美航空",
     "AirlineEnglishName": "LATAM Chile",
     "AirlineCountry": "智利",
-    "WaybillCode": null
+    "WaybillCode": "045"
   },
   {
     "AirlineCode": "LB",
@@ -4365,7 +4379,7 @@
     "AirlineName": "汉莎航空",
     "AirlineEnglishName": "Deutsche Lufthansa",
     "AirlineCountry": "德国",
-    "WaybillCode": "020"
+    "WaybillCode": "220"
   },
   {
     "AirlineCode": "LJ",
@@ -4621,10 +4635,10 @@
   },
   {
     "AirlineCode": "MI",
-    "AirlineName": "自由鸟航空欧洲有限公司",
+    "AirlineName": "新加坡胜安航空",
     "AirlineEnglishName": "Freebird Airlines Europe Ltd.",
     "AirlineCountry": "马耳他",
-    "WaybillCode": null
+    "WaybillCode": "629"
   },
   {
     "AirlineCode": "MI*",
@@ -4932,7 +4946,7 @@
     "AirlineName": "河北航空",
     "AirlineEnglishName": "Hebei Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "836"
   },
   {
     "AirlineCode": "NT",
@@ -4985,10 +4999,10 @@
   },
   {
     "AirlineCode": "O8",
-    "AirlineName": "马拉松航空",
+    "AirlineName": "泰国暹罗航空",
     "AirlineEnglishName": "Marathon Airlines S.A. dba Marathon",
     "AirlineCountry": "希腊",
-    "WaybillCode": null
+    "WaybillCode": "874"
   },
   {
     "AirlineCode": "O9",
@@ -5023,7 +5037,7 @@
     "AirlineName": "马印航空",
     "AirlineEnglishName": "Malindo Air",
     "AirlineCountry": "马来西亚",
-    "WaybillCode": null
+    "WaybillCode": "816"
   },
   {
     "AirlineCode": "OE",
@@ -5289,7 +5303,7 @@
     "AirlineName": "曼谷航空",
     "AirlineEnglishName": "Bangkok Airways",
     "AirlineCountry": "泰国",
-    "WaybillCode": null
+    "WaybillCode": "829"
   },
   {
     "AirlineCode": "PH",
@@ -5352,7 +5366,7 @@
     "AirlineName": "西部航空",
     "AirlineEnglishName": "West Air",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "847"
   },
   {
     "AirlineCode": "PO",
@@ -5388,6 +5402,13 @@
     "AirlineEnglishName": "Philippine Airlines",
     "AirlineCountry": "菲律宾",
     "WaybillCode": "079"
+  },
+  {
+    "AirlineCode": "PS",
+    "AirlineName": "乌克兰国际航空公司",
+    "AirlineEnglishName": "Ukraine International Airlines",
+    "AirlineCountry": "乌克兰",
+    "WaybillCode": "566"
   },
   {
     "AirlineCode": "PT",
@@ -5618,14 +5639,14 @@
     "AirlineName": "老挝航空",
     "AirlineEnglishName": "Lao Aviation",
     "AirlineCountry": "老挝",
-    "WaybillCode": null
+    "WaybillCode": "627"
   },
   {
     "AirlineCode": "QW",
     "AirlineName": "青岛航空",
     "AirlineEnglishName": "Qingdao Airlines",
     "AirlineCountry": "中华人民共和国",
-    "WaybillCode": null
+    "WaybillCode": "912"
   },
   {
     "AirlineCode": "QX",
@@ -5786,7 +5807,7 @@
     "AirlineName": "皇家约旦航空",
     "AirlineEnglishName": "Royal Jordanian Airline",
     "AirlineCountry": "约旦",
-    "WaybillCode": null
+    "WaybillCode": "512"
   },
   {
     "AirlineCode": "RK",
@@ -6185,7 +6206,7 @@
     "AirlineName": "索蒙航空",
     "AirlineEnglishName": "Somon Air",
     "AirlineCountry": "塔吉克斯坦",
-    "WaybillCode": null
+    "WaybillCode": "413"
   },
   {
     "AirlineCode": "T1",
@@ -6339,7 +6360,7 @@
     "AirlineName": "酷航",
     "AirlineEnglishName": "SCOOT",
     "AirlineCountry": "新加坡",
-    "WaybillCode": null
+    "WaybillCode": "668"
   },
   {
     "AirlineCode": "TS",
@@ -6574,10 +6595,10 @@
   },
   {
     "AirlineCode": "UT",
-    "AirlineName": "乌塔航空",
+    "AirlineName": "俄罗斯尤特航空",
     "AirlineEnglishName": "UTair Aviation",
     "AirlineCountry": "俄罗斯",
-    "WaybillCode": null
+    "WaybillCode": "298"
   },
   {
     "AirlineCode": "UU",
@@ -6689,7 +6710,7 @@
     "AirlineName": "维珍澳大利亚航空",
     "AirlineEnglishName": "Virgin Australia",
     "AirlineCountry": "澳大利亚",
-    "WaybillCode": null
+    "WaybillCode": "795"
   },
   {
     "AirlineCode": "VB",
@@ -6804,6 +6825,13 @@
     "WaybillCode": null
   },
   {
+    "AirlineCode": "VX",
+    "AirlineName": "维珍美国航空",
+    "AirlineEnglishName": "Virgin America",
+    "AirlineCountry": "美国",
+    "WaybillCode": "984"
+  },
+  {
     "AirlineCode": "VY",
     "AirlineName": "伏林航空",
     "AirlineEnglishName": "Vueling Airlines",
@@ -6910,10 +6938,10 @@
   },
   {
     "AirlineCode": "WE",
-    "AirlineName": "帕拉塔航空公司",
+    "AirlineName": "泰国微笑航空",
     "AirlineEnglishName": "PARATA AIR INC.",
     "AirlineCountry": "Korea, Republic of",
-    "WaybillCode": null
+    "WaybillCode": "909"
   },
   {
     "AirlineCode": "WF",
@@ -7243,6 +7271,13 @@
     "AirlineEnglishName": "Aerlink Pty Ltd",
     "AirlineCountry": "澳大利亚",
     "WaybillCode": null
+  },
+  {
+    "AirlineCode": "XW",
+    "AirlineName": "泰国飞鸟酷航航空",
+    "AirlineEnglishName": "NokScoot",
+    "AirlineCountry": "泰国",
+    "WaybillCode": "478"
   },
   {
     "AirlineCode": "XY",
